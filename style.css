@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Borel', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+.navbar{
+    padding: 25px;
+    height: 50px;
+    background-color: rgb(26, 233, 171);
+    box-shadow: 1px 5px 10px;
+    position: sticky;
+    top: 0px;
+}
+.title{
+    font-size: 30px;
+    display: inline-block;
+}
+li,ul{
+    display: inline;
+}
+ul{
+    margin-left: 900px;
+    margin-top: -15px;
+}
+li{
+    margin-right: 20px;
+}
+.header{
+    padding: 70px;
+    background-color: rgb(26, 233, 171);
+}
+.h-title{
+    font-weight: bold;
+}
+.bt{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+.pot{
+    float: right;
+}
+.base{
+    margin-top: 10px;
+    color: grey;
+}
+.ab,.ab-title{
+    text-align: center;
+    margin-top: 20px;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ab-content{
+    border: 1px solid black;
+    height: 200px;
+    width: 220px;
+    margin-top: 10px;
+    text-align: center;  
+    padding: 20px;  
+}
+
+.p-title{
+    text-align: center;
+}
+.box{
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(178, 226, 212);
+}
+.box1,.box3{
+    margin: -50px;
+}
+.prod-description{
+    text-align: center;
+    background-color: rgb(178, 226, 212);
+}
+.best{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.seller{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+}
+.client{
+    margin-top: 100px;
+    background-color: rgb(178, 226, 212);
+    height: 350px;
+    margin-left: 30px;
+}
+.img-client{
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.client-content{
+    padding: 50px;
+    margin-left: 250px;
+}
+.news{
+    text-align: center;
+    padding: 10px;
+}
+input{
+    width: 700px;
+    height: 30px;
+    margin-top: 2px;
+}
+.subscribe{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.footer{
+    font-size: larger;
+    background-color: rgb(178, 226, 212);
+    padding: 40px;
+}
+
+.mail{
+    margin-top: 10px;
+    color: grey;
+}
